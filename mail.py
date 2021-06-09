@@ -16,4 +16,4 @@ def send_welcome(message):
         bot.send_message(message.from_user.id, 'Не понимаю, что это значит.')
 
         bot.polling(none_stop=False)
-print("hello")
+
